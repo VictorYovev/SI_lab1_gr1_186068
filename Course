@@ -1,0 +1,13 @@
+class Course{
+    List<Student>students;
+
+    public Course(List<Student> students) {
+        this.students = students;
+    }
+    public void addStudent(Student t){
+        students.add(t);
+    }
+    public void deleteStudent(Student t){
+        students.remove(t);
+    }
+}
